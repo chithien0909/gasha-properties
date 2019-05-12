@@ -31,11 +31,15 @@
                 </div>
                 <div class='site-right'>
                     <div class='currencies'>
-                        <img style='width: 25px;height:20px' src="./images/flag-united-kingdom.svg" alt="USD">
-                        <select name="" id="">
+
+                        <select aria-label="currency " name="currency" id="currency">
                             <option value="USD">
-                                <span>GBP</span>
-                                <span>30.406đ</span>
+                                <img style='width: 25px;height:20px' src="./images/flag-united-kingdom.svg" alt="USD">
+                                GBP 30.406đ
+                            </option>
+                            <option value="EURO">
+                                <img style='width: 25px;height:20px' src="./images/euro.png" alt="EURO">
+                                GBP 30.406đ
                             </option>
                         </select>
                     </div>
@@ -43,6 +47,8 @@
                         <img style="width: 16px;height: 16px" src="./images/weather-sun.svg" alt="Weather">
                         <select name="" id="">
                             <option value="HCM">Ho Chi Minh City 31ºC</option>
+                            <option value="HCM">Can Tho City 31ºC</option>
+                            <option value="HCM">Da Nang City 31ºC</option>
                         </select>
                     </div>
                 </div>
@@ -72,5 +78,119 @@
             <h4 class="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
         </div>
     </div>
+    <div class="site-content">
+        <div class="body-content">
+            <div class="introduction">
+                <div class="content">
+                    <h6 class="sub-title">Introduction</h6>
+                    <h1 class="title">About the company</h1>
+                    <p>Gasha Properties is an all-in-one, turnkey solution for foreign real estate
+                        investors in Vietnam. With over 12 years experience in the real estate industry,
+                        we hold our services to the highest international standards,
+                        marked by quality service, efficiency, and value.</p>
+                    <p>Time is an invaluable commodity.</p>
+                    <p>Our mission is to create a superior buying,
+                        selling and management experience for all of our clients
+                        by offering them peace of mind and freedom of time.</p>
+                    <a class="more-a" href="#">Read more</a>
+                </div>
+                <div class="img">
+                    <img src="./images/img_1.png" alt="Image">
+                </div>
+            </div>
+            <div class="special-offer">
+                <div class="box">
+                    <img src="./images/img_2.png" alt="Img">
+                    <div class="body-box">
+                        <h3 class="title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h3>
+                        <p class="text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./images/img_3.png" alt="Img">
+                    <div class="body-box">
+                        <h3 class="title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h3>
+                        <p class="text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="./images/img_4.png" alt="Img">
+                    <div class="body-box">
+                        <h3 class="title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h3>
+                        <p class="text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-content">
+        <div class="banner">
+
+            <div class="content">
+                <div class="box">
+                    <h2 class="number">23</h2>
+                    <p class="text">Ut enim ad minim</p>
+                </div>
+                <div class="box">
+                    <h2 class="number">1000</h2>
+                    <p class="text">Ut enim ad minim</p>
+                </div>
+                <div class="box">
+                    <h2 class="number">96</h2>
+                    <p class="text">Ut enim ad minim</p>
+                </div>
+                <div class="box">
+                    <h2 class="number">243</h2>
+                    <p class="text">Ut enim ad minim</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-content">
+        <div class="contact">
+            <div class="main-title">
+                <h1 class="title">Contact</h1>
+            </div>
+            <div class="address">
+                <h5 class="sub-text">Contact us for any inquiries.</h5>
+
+                <h6 class="sub-title">HCMC Office</h6>
+                <p><span>Add</span>: AB Tower, 76A Le Lai, Binh Thanh Ward, District 1, Ho Chi Minh City, Vietnam</p>
+                <p><span>Tel</span>: +84 983 910 453</p>
+                <p><span>Email</span>: info@gashaproperties.com</p>
+            </div>
+            <div class="map">
+                <div class="map">
+                    <img src="./images/map.png" alt="Map">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="site-footer">
+        <div class="footer">
+            <div class="logo">
+                <img src="./images/logo.svg" alt=Logo"">
+            </div>
+            <div class="copyright">
+                © 2019 Gasha Properties. Powered by Letweb.
+                <br>
+                The currency exchange rate is for referential purpose only.
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
